@@ -6,7 +6,8 @@
 title: "R Markdown 기초"
 subtitle: "성균관의대 강의 2019"
 author: "김진섭"
-date: "`r format(Sys.Date())`" 
+date: "`r format(Sys.Date());`" 
+Date.format(new Date("10 Jan 2011"), "%B %d, %Y"); 
 ---
 ## 🤩 진행 예정...
 - <a href="https://www.acmicpc.net/problem/tags"> 백준</a>
