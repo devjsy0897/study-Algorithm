@@ -12,6 +12,7 @@ public class CodeUp1037 {
 		num = sc.nextInt();
 		sc.close();
 
+		// 아스키 코드 참고 사이트 https://coding-factory.tistory.com/74
 		char ascii = (char)num;
 		System.out.println(ascii);
 		
