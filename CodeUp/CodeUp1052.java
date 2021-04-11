@@ -9,13 +9,11 @@ public class CodeUp1052 {
 		
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
+		int b = sc.nextInt();
 		sc.close();
 		
-		if(a==1){
-			System.out.println(0);
-		}else if(a==0){
-			System.out.println(1);
-		}
+		int c = (a == b) ? 0 : 1; 
+		System.out.println(c);
 	}
 }
 
