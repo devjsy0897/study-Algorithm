@@ -1,4 +1,6 @@
-# study_Algorithm
+# 알고리즘 공부 공간
+
+### 사용 언어 : JAVA
 
 ## 😎 진행중...      
 - <a href="https://codeup.kr/problemset.php"> code up</a> -> since Nov 22, 2020     
