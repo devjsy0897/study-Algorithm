@@ -12,6 +12,7 @@ public class CodeUp1059 {
 		sc.close();
 		
 		System.out.println(~a);
+		// '~' 는 각 자리수를 반대로 변환하는 것을 의미합니다.
 	}
 }
 
