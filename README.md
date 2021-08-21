@@ -2,7 +2,7 @@
 
 ### 사용 언어 : JAVA
 
-## 😎 진행중...      
+## 😎 진행중      
 - <a href="https://codeup.kr/problemset.php"> code up</a>  
 - <a href="https://www.acmicpc.net/problemset"> 백준</a> 
 
