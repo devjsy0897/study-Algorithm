@@ -6,7 +6,7 @@
 - <a href="https://codeup.kr/problemset.php"> code up</a>  
 - <a href="https://www.acmicpc.net/problemset"> 백준</a> 
 
-## 🤩 진행 예정...
+## 🤩 진행 예정
 
       
 ## 🧐참고할 사이트   
