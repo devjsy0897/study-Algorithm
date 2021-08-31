@@ -16,21 +16,18 @@ public class baekjoon2577 {
 		}
 		
 		sum = (num[0] * num[1] * num[2]) +"";
-		System.out.println("합은 "+sum);
+		
 		for(int i=0;i<10;i++){
 			int cnt = 0;
-			int last = 0;
+			int last = -1;
 			while(true){
-				last = sum.indexOf(i+"",last);
-				System.out.println("last : "+last+" / cnt : "+cnt);
-				if(sum.indexOf(i+"",last+cnt)!=-1){
-					System.out.println(i+"는 "+sum.indexOf(i+"",last));
-					
-					cnt++;
-				}else{
+				last = sum.indexOf(i+"",last+1);
+				if(last==-1){
 					break;
 				}
+				cnt++;
 			}
+			System.out.println(cnt);
 		}
 		
 		
