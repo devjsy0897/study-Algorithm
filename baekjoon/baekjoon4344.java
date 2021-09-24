@@ -1,5 +1,6 @@
 package baekjoon; //제출시 삭제
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 //제출시 baekjoon4344 -> Main 으로 변경
@@ -18,15 +19,15 @@ public class baekjoon4344 {
 				cnt3[j] = sc.nextInt();
 				sumCnt += cnt3[j];
 			}
-			int avg = sumCnt / cnt3.length;
-			int cnt4 = 0;
+			double avg = (double)sumCnt / cnt3.length;
+			double cnt4 = 0;
 			for(int j=0;j<cnt3.length;j++){
 				if(cnt3[j]>avg){
 					cnt4++;
 				}
 			}
-			Double avgCnt = (double)Math.round((cnt4/cnt3.length*100)*1000/1000.0);
-			System.out.println(avgCnt);
+			System.out.printf("%.3f", 100.0 * cnt4 / cnt3.length);
+			System.out.println("%");
 		}
 		
 		
